@@ -2,6 +2,8 @@ package juc.artofconcurrent.chapter4.minutiaOne;
 
 import juc.artofconcurrent.chapter4.utils.SleepUtils;
 
+import java.util.concurrent.Callable;
+
 /**
  * 线程状态
  * Created by manji on 2018/5/26.
@@ -59,5 +61,14 @@ public class ThreadStatue {
         }
     }
 
+    /**
+     * 回调线程
+     */
+    static class CallBack implements Callable<String>{
+        @Override
+        public String call() throws Exception {
+            return "this is callable.";
+        }
+    }
 
 }
