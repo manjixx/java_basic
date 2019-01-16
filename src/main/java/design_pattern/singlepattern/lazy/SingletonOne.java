@@ -1,4 +1,4 @@
-package singlepattern.lazy;
+package design_pattern.singlepattern.lazy;
 
 /**
  * Description ：懒汉式 ( 线程不安全 )

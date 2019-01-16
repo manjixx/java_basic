@@ -1,4 +1,4 @@
-package singlepattern.lazy;
+package design_pattern.singlepattern.lazy;
 
 /**
  * Description ：懒汉式加载 ( 同步代码块加载模式 )

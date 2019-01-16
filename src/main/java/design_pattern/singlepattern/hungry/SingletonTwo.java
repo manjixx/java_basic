@@ -1,4 +1,4 @@
-package singlepattern.hungry;
+package design_pattern.singlepattern.hungry;
 
 /**
  * Description ：饿汉式 静态代码块初始化类
