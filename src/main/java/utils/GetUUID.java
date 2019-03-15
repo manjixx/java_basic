@@ -12,5 +12,6 @@ public class GetUUID {
         String replace = s.replace("-", "");
         System.out.println(s);
         System.out.println(replace);
+
     }
 }
