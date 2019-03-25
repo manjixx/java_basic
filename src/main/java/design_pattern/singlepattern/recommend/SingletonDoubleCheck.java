@@ -1,4 +1,4 @@
-package singlepattern.recommend;
+package design_pattern.singlepattern.recommend;
 
 /**
  * Description ：单例模式下的双重检查

@@ -1,4 +1,4 @@
-package singlepattern.recommend;
+package design_pattern.singlepattern.recommend;
 
 /**
  * Description ：静态代码块实现
